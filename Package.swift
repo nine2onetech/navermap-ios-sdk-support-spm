@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "NMapsMap",
-    platforms: [.iOS(.v14)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "NMapsMap",
