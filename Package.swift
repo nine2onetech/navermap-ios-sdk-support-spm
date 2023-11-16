@@ -13,7 +13,7 @@ let package = Package(
         .binaryTarget(
             name: "NMapsMap",
             url: "https://github.com/nine2onetech/navermap-ios-sdk-support-spm/releases/download/3.17.0/NMapsMap.xcframework.zip",
-            checksum: "3a207597673ce6bc5fa401c09a5da0574ccc9bd6bcb00c9fb486bd100f3e0918"
+            checksum: "12398d6e9525b4b2c4bd3bf3d34189f6d469c88dc7c153a501bc4d4ff954c888"
         )
     ]
 )
