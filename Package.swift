@@ -7,7 +7,13 @@ let package = Package(
     name: "NMapsMap",
     platforms: [.iOS(.v14)],
     products: [
-        .library(name: "NMapsMap", targets: ["NMapsMap"])
+        .library(
+            name: "NMapsMap",
+            targets: [
+                "NMapsMap",
+                "NMapsGeometry"
+            ]
+        )
     ],
     targets: [
         .binaryTarget(
