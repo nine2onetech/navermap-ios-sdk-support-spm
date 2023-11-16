@@ -9,14 +9,19 @@ let package = Package(
     products: [
         .library(
             name: "NMapsMap",
-            targets: ["NMapsMap"]
+            targets: ["NMapsMap", "NMapsGeometry"]
         ),
     ],
     targets: [
         .binaryTarget(
             name: "NMapsMap",
             url: "https://github.com/nine2onetech/navermap-ios-sdk-support-spm/releases/download/3.17.0/NMapsMap.xcframework.zip",
-            checksum: "3a207597673ce6bc5fa401c09a5da0574ccc9bd6bcb00c9fb486bd100f3e0918"
+            checksum: "d4b24f7862360d5c91e2f7f12d78275291a8298a8b972ce912feff73bd0ff2d0"
+        ),
+        .binaryTarget(
+            name: "NMapsGeometry",
+            url: "https://github.com/nine2onetech/navermap-ios-sdk-support-spm/releases/download/3.17.0/NMapsGeometry.xcframework.zip",
+            checksum: "4116315e8653e93ae9937ec2b5571232bd4cf2f8f47027dff02bee0afad0dccd"
         )
     ]
 )
